@@ -1,0 +1,181 @@
+.home {
+    height: 100vh ;
+    transition: all 0.5s ease;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.words {
+    width: 40vw;
+    margin-top: 5rem;
+    transition: all 0.5s ease;
+}
+
+.image {
+    width: 22vw;
+    transition: all 0.5s ease;
+}
+
+.img {
+    height: 60vh;
+    margin-top: 5rem;
+    transition: all 0.5s ease;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 1rem auto ;
+    transition: all 0.5s ease;
+}
+
+.btn {
+    background: #ffffff;
+    outline: none;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+.btn:hover {
+    background: unset;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    padding: 0.6rem;
+}
+.pepsi {
+    position: relative;
+    width: 50px ;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.pepsi:hover  {
+    margin-bottom: 1rem;
+    width: 55px;
+}
+.botles {
+    text-align: center;
+}
+.products > .hy {
+    margin: 0rem ;
+}
+
+.pepsi-price {
+    margin: 5rem;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.pepsi-price:hover {
+    width: 210px;
+}
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.btns {
+    height: 100px;
+    margin-top: -12rem;
+}
+.btns > button {
+    outline: none;
+    background: #ffffff;
+    padding: 1rem 3rem ;
+    margin: 0 7.3rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btns > button:hover {
+    background: unset;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    padding: 0.9rem 2.9rem;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .home {
+        height: 110vh;
+    }
+    .section {
+        flex-direction: column;
+        width: 95vw;
+        height: 80vh;
+        margin-top: 1rem; 
+        
+    }
+    .words {
+        width: 50vw;
+        text-align: center;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+    .btn {
+        background: #ffffff;
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 20px;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: background 0.5s ease;
+    }
+    .btn:hover {
+        background: unset;
+        border: solid 2px #ffffff;
+        color: #ffffff;
+        padding: 0.4rem;
+    }
+    .img {
+        cursor: pointer;
+        height: 35vh;
+        margin: 1rem;
+        transition: all 0.5s ease;
+    }
+    .img:hover {
+        padding: 1rem;
+    }
+    .image {
+        width: 95vw;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .botles {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0rem;
+        bottom: 2rem;
+    }
+    .pepsi {
+        margin-top: 1rem;
+    }
+    
+    
+}
